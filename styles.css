@@ -652,3 +652,41 @@ a:hover {
     padding: 22px;
   }
 }
+
+
+.brand-logo {
+  width: 112px;
+  height: auto;
+  display: block;
+}
+
+.section-head--with-logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.section-logo {
+  width: 168px;
+  max-width: 38vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.panel-visual img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .brand-logo {
+    width: 92px;
+  }
+
+  .section-head--with-logo {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
